@@ -1,0 +1,57 @@
+    1  export NAME=dptcluster.k8s.local 
+    2  export KOPS_STATE_STORE=s3://kubers3bucket 
+    3  kops create cluster --zones=us-east-1c,us-east-1b,us-east-1a ${NAME} 
+    4  kops update cluster --name dptcluster.k8s.local --yes --admin 
+    5  history 
+    6  KUBECTL GET PODS 
+    7  kubectl get pods 
+    8  kubectl get nodes 
+    9  kubectl get pods 
+   10  kubectl get nodes 
+   11  wget https://get.helm.sh/helm-v3.8.2-linux-amd64.tar.gz 
+   12  gunzip helm-v3.8.2-linux-amd64.tar.gz 
+   13  ls -l 
+   14  yum git initall 
+   15  yum git install 
+   16  yum install git 
+   17  git clone https://Bharathi_rajen@bitbucket.org/dptrealtime/kubernetes.git 
+   18  ls -l 
+   19  tar -xvf helm-v3.8.2-linux-amd64.tar 
+   20  ls -l 
+   21  cd linux-amd64/ 
+   22  ./helm version 
+   23  cd ~ 
+   24  helm version 
+   25  helm list 
+   26  ./helm version 
+   27  cd linux-amd64/ 
+   28  ls -l 
+   29  mv helm usr/local/bin 
+   30  mv helm /usr/local/bin 
+   31  cd ~ 
+   32  helm version 
+   33  helm vlist 
+   34  helm list 
+   35  ls -l 
+   36  cd kubernetes/ 
+   37  ls -l 
+   38  cd helm/ 
+   39  ls -l 
+   40  cd dpt-helm-sample/ 
+   41  ls -l 
+   42  cd .. 
+   43  ls -l 
+   44  helm package dpt-helm-sample 
+   45  ls -l 
+   46  heml install webapp dpt-web-app-1.tgz 
+   47  helm install webapp dpt-web-app-1.tgz 
+   48  heml list 
+   49  helm list 
+   50  curl -ubharathirajen1320@gmail.com:Bharathi@123 -T <PATH_TO_FILE> "https://bharathir.jfrog.io/artifactory/abc-helm-helm-local/dpt-web-app-1.tgz" 
+   51  curl -ubharathirajen1320@gmail.com:Bharathi@123 -T dpt-web-app-1.tgz "https://bharathir.jfrog.io/artifactory/abc-helm-helm-local/dpt-web-app-1.tgz" 
+   52  ls -l 
+   53  ls -l dept-helm-sample 
+   54  ls -l dept-helm-sample/ 
+   55  ls -l det-helm-sample/ 
+   56  ls -l dpt-helm-sample/ 
+   57  history
